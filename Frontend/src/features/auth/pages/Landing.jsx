@@ -220,7 +220,7 @@ const Landing = () => {
               Get Started Now
             </Link>
           ) : (
-            <Link to="/interview" className="btn btn-primary btn-lg">
+            <Link to="/main" className="btn btn-primary btn-lg">
               Go To Interview
             </Link>
           )}
