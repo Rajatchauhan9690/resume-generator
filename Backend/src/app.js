@@ -8,11 +8,10 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https:/resume-generator-wine-eight.vercel.app",
+  "https://resume-generator-wine-eight.vercel.app",
   "https://resume-generator-git-main-rajats-projects-149ec79a.vercel.app",
-  "https://resume-generator-ju7or1urv-rajats-projects-149ec79a.vercel.app",
+  "https://resume-generator-9w55hnmix-rajats-projects-149ec79a.vercel.app",
 ];
-
 app.use(
   cors({
     origin: function (origin, callback) {
